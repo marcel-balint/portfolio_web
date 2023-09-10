@@ -345,19 +345,24 @@
                 <form action="#">
                     <div class="form-row">
                         <input type="text" id="fname" name="fname"
-                            value="First Name*" required><br>
+                            placeholder="First Name*" required>
                         <input type="text" id="lname" name="lname"
-                            value="Last Name*" required><br><br>
+                            placeholder="Last Name*" required>
                     </div>
                     <div class="form-row">
                         <input type="text" id="email" name="email"
-                            value="Email*" required><br>
+                            placeholder="Email*" required>
                         <input type="text" id="phone" name="phone"
-                            value="Phone"><br><br>
+                            placeholder="Phone">
                     </div>
-                    <label for="msg">Write a message*</label>
-                    <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
-                    <button class="form-btn"></button>
+                    <div class="form-textarea">
+                        <label for="msg">Write a message*</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10"
+                            required></textarea>
+                    </div>
+                    <button class="form-btn">
+                        Send
+                    </button>
                 </form>
             </div>
         </section>
