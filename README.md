@@ -2,12 +2,12 @@
 
 A live live demo can be found [here](https://marcel-balint.github.io/portfolio_web/)
 
-## Technologies
+## Technologies used:
 
 - HTML
 - CSS
 
-### Installing
+### Installing the project locally:
 
 1 Clone this repo:
 
