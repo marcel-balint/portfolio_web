@@ -365,6 +365,111 @@ header video {
     padding-bottom: 10px;
 }
 
+
+/********** Section About Me styles ********************/
+.section-about-me {
+    background-color: #ebebeb;
+}
+.section-about-me_content {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-about-me_content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-size: 350%;
+    letter-spacing: 1px;
+}
+
+.about-me_box {
+    display: flex;
+    margin-top: 30px;
+}
+
+.about-me_box-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me_box-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me_box-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about-me_box-para1,
+.about-me_box-para2 {
+    font-size: 1.2rem;
+}
+
+.about-me_box-text h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.about-me_box-text button {
+    width: 160px;
+    border: none;
+    background-color: #54be90;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    -webkit-box-shadow: -5px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 15px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.about-me_box-text button:hover {
+    background-color: #4eb88a;
+}
+.about-me_box-text button:active{
+    -webkit-box-shadow: -5px 6px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 10px 0px rgba(0,0,0,0.75);
+    transform: translateY(1px);
+}
+
+.about-me_underline {
+    border-bottom: 10px solid #54be90; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******* Cards media queries **********/
 @media(max-width: 800px){
     .flex-cards_column{
