@@ -120,6 +120,8 @@ header video {
     background: linear-gradient(to top, #fff, #fff 69%, transparent);
 }
 .section-into-paragraph_box {
+    width: 80%;
+    margin: auto;
     height: 15rem;
     padding-top: 3rem;
     background-color: #fff;
@@ -131,12 +133,10 @@ header video {
 
 .section-intro_text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .section-intro_content {
-    width: 80%;
-    margin: auto;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 .section-intro_circles {
     width: 100%;
@@ -145,8 +145,53 @@ header video {
 }
 .section-intro_circles img{
     width: 50px;
-
+   padding-top: 50px;
+}
+.section-intro_circle{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
+.section-intro_presentation {
+    background-color: #232323;
+    color: #fff;
+}
 
+.section-intro_presentation-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section-intro_presentation-cards{
+    width: 100%;
+    display: flex;
+}
+.section-intro_presentation-cards .card{
+    padding: 30px;
+    height: 250px;
+}
+.section-intro_presentation-cards .card h2{
+    text-align: center;
+    color: #54be90;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.section-intro_presentation-cards .card p{
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.section-intro_presentation-cards .card:nth-child(2) h2{
+    padding-right: 10px;
+}
 
