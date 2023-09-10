@@ -215,7 +215,7 @@ header video {
     color: #54be90;
 }
 .section-skills_box{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .section-skills_skill{
@@ -276,11 +276,9 @@ header video {
     right: 27%;
 }
 
-
 .jquery-color_fill {
     right: 18%;
 }
-
 
 .php-color_fill {
     right: 27%;
@@ -293,3 +291,100 @@ header video {
 .ux-color_fill {
     right: 45%;
 }
+
+/********** Section Portfolio styles ********************/
+
+.section-portfolio{
+ background-color: #54be90;
+}
+
+.section-portfolio_content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-portfolio_content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 350%;
+    letter-spacing: 1px;
+}
+
+.flex-cards {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-cards_column{
+    box-sizing: border-box; 
+    flex: 25%;
+    max-width: 30%;
+    padding: 0 5px;
+}
+
+.flex-cards_card {
+    width: 100%;
+    /* height: 180px; */
+    margin: 10px 0; 
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-cards_card:hover{
+    background-color: #000;
+}
+
+.flex-cards_card-image img {
+    width: 100%;
+    height: 180px;
+}
+
+.flex-cards_card-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ccc;
+}
+
+.flex-cards_card-description p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.flex-cards_card-tech-stack{
+    background-color: #ccc;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+/******* Cards media queries **********/
+@media(max-width: 800px){
+    .flex-cards_column{
+      flex: 50%;
+      max-width: 50%
+    }
+    .last-column{
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+      }
+}
+    
+  @media(max-width: 400px){
+    .flex-cards_column{
+      flex: 100%;
+      max-width: 100%
+    }
+    .last-column{
+        flex-direction: column;
+    }
+  }
