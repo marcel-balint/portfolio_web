@@ -1,6 +1,6 @@
 ## Website Portfolio
 
-A live live demo can be found [here](https://marcel-balint.github.io/portfolio_web/)
+A live demo can be found [here](https://marcel-balint.github.io/portfolio_web/)
 
 ## Technologies used:
 
