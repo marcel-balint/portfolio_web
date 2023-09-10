@@ -449,10 +449,37 @@ header video {
     border-bottom: 10px solid #54be90; ;
 }
 
+/********** Section Find Me styles ********************/
 
+.section-find-me {
+    background-color:  #232323;
+}
 
+.section-find-me_content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
 
+.section-find-me_content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    letter-spacing: 1px;
+}
 
+.section-find-me_social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.section-find-me_social-icons img {
+    width: 100px;
+}
 
 
 
