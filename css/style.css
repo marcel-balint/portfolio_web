@@ -166,7 +166,7 @@ header video {
     width: 80%;
     margin: auto;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
 .section-intro_presentation-cards{
     width: 100%;
@@ -195,3 +195,101 @@ header video {
     padding-right: 10px;
 }
 
+/********** Section Skills styles ********************/
+
+.section-skills{
+    background-color: #fff;
+}
+
+.section-skills_content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-skills_content h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #54be90;
+}
+.section-skills_box{
+    margin-top: 100px;
+}
+
+.section-skills_skill{
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+}
+
+.skill-title{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #464646;
+
+}
+
+.section-skills_skill .skill-title_text{
+       color: #fff;
+}
+
+.skill-percentage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.skill-percentage p {
+    margin-right: 10px;
+}
+
+.skill-fill-color{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    background-color: #54be90;
+}
+
+.html-color_fill{
+    right: 9%;
+}
+
+.css-color_fill {
+    right: 9%;
+}
+
+.javascript-color_fill {
+    right: 18%;
+}
+
+.react-color_fill {
+    right: 27%;
+}
+
+
+.jquery-color_fill {
+    right: 18%;
+}
+
+
+.php-color_fill {
+    right: 27%;
+}
+
+.laravel-color_fill {
+    right: 27%;
+}
+
+.ux-color_fill {
+    right: 45%;
+}
