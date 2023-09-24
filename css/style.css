@@ -282,13 +282,13 @@ header video {
 
 .flex-cards_card {
     width: 100%;
-    /* height: 180px; */
     margin: 10px 0; 
     padding: 10px;
     background-color: #eee;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
 .flex-cards_card:hover{
     background-color: #000;
@@ -605,3 +605,123 @@ textarea {
         flex-direction: column;
     }
   }
+
+/******* Media queries **********/
+
+@media(max-width: 1800px){
+    .footer-content h2::before,
+    .footer-content h2::after {
+        width: 25%;
+    }
+}
+
+@media(max-width: 1500px){
+    header {
+        height: 650px;
+    }
+}
+@media(max-width: 1400px){
+    header {
+        height: 550px;
+    }
+}
+@media(max-width: 1245px){
+.section-intro_circle{
+    width: 170px;
+    height: 170px;
+}
+.section-intro_presentation-cards .card {
+    padding: 10px;
+}
+.section-intro_presentation-cards .card p{
+    margin-top: 30px;
+}
+}
+@media(max-width: 1220px){
+    header {
+        height: 480px;
+    }
+    .header-title{
+        top: 65%;
+    }
+}
+@media(max-width: 1130px){
+    .flex-cards {
+        justify-content: space-between;
+    }
+    .flex-cards_column{
+        max-width: 34%;
+    }
+    .section-intro_circle {
+        width: 150px;
+        height: 150px;
+    }
+  .section-intro_circles img {
+        width: 40px;
+        padding-top: 30px;
+  }
+}
+
+@media(max-width: 1080px){
+    header {
+        height: 420px
+    };
+    .title-upside{
+        font-size: 160%;
+    }
+    .header-text_name{
+        font-size: 100%;
+    }
+    .title-downside{
+        font-size: 160%;
+    }
+    .header-title{
+        top: 65%;
+        left: 55%
+    }
+    .section-intro_circles{
+        justify-content: space-between;
+    }
+    .section-about-me_content{
+        width: 80%;
+    }
+    .section-skills_row {
+        justify-content: space-between;
+    }
+
+}
+@media(max-width: 1065px){
+    .section-skills_content h2,
+    .section-portfolio_content h2,
+    .footer-content h2,
+    .section-contact-me_content h2,
+    .section-find-me_content h2,
+    .section-about-me_content h2 {
+        font-size: 250%;
+    }
+}
+
+@media(max-width: 1000px){
+  .section-skills_content,
+  .section-portfolio_content,
+  .section-find-me_content,
+  .section-contact-me_content,
+  .section-about-me_content{
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .section-find-me_social-icons img {
+    width: 75px;
+}
+  .section-find-me_social-icons,
+  .footer-social{
+    justify-content: space-between;
+  }
+  .footer-content{
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .form-btn{
+    width: 250px;
+ }
+}
