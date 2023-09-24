@@ -216,12 +216,34 @@ header video {
     padding-bottom: 100px;
 }
 
+
 .section-skills_content h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 300%;
     color: #54be90;
 }
+.section-skills_row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.section-skills_column ul {
+    list-style-type: none;
+}
+.section-skills_column ul li {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.section-skills_column ul li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+/*
 .section-skills_box{
     margin-top: 60px;
 }
@@ -300,6 +322,7 @@ header video {
     right: 45%;
 }
 
+*/
 /********** Section Portfolio styles ********************/
 
 .section-portfolio{
