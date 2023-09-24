@@ -125,8 +125,6 @@ header video {
 .section-intro{
     background-color: #fff;
     margin-top: -200px;
-    /* background: linear-gradient(rgb(60, 200, 255) 0%, rgb(32, 98, 138) 100%); */
-    /* background: linear-gradient(#F26101, #08AEEA), rgba(0,0,0,0.2); */
     background: linear-gradient(to top, #fff, #fff 69%, transparent);
 }
 .section-into-paragraph_box {
