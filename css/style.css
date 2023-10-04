@@ -34,10 +34,11 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     display: none;
+    cursor: pointer;
 }
 
 .mobile-icon_line{
- background-color: #000;
+    background-color: #000;
     width: 100%;
     height: 7px;
     border-radius: 5px;
@@ -872,10 +873,22 @@ textarea {
 
 @media(max-width: 650px){
     nav .nav-links{
-        display: none;
+        display: none;  
+        width: 100%;
+    }
+    nav .nav-links.active {
+      
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        background-color: #303030;
     }
     .mobile-icon{
+        position: absolute;
+        right: 0;
         display: flex;
+        z-index: 1;
     }
 }
 
