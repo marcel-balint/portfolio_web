@@ -6,6 +6,7 @@ A live demo can be found [here](https://marcel-balint.github.io/portfolio_web/)
 
 - HTML
 - CSS
+- JavaScript
 
 ### Installing the project locally:
 
