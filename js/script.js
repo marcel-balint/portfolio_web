@@ -3,8 +3,6 @@ const navigationLinks = document.querySelector(".nav-links");
 const navigationItems = document.querySelectorAll(".nav-links li");
 const navigation = document.querySelector("nav");
 
-document.querySelector("video").playbackRate = 0.3;
-
 navigationItems.forEach((el) => {
   el.addEventListener("click", () => {
     navigationLinks.classList.remove("active");
