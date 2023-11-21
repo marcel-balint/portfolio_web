@@ -265,6 +265,133 @@ header video {
 
 /********** Section Portfolio styles ********************/
 
+/************************************************************************/
+
+.swiper-button-next {
+    color: red;
+}
+/* swiper-container */
+.mySwiper{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    overflow: hidden; /* Ensure that content doesn't overflow */
+   
+  }
+  
+  /* swiper-slide */
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusted to space-between */
+    align-items: center;
+  }
+  
+  /* .swiper-slide_content */
+  .swiper-slide_content {
+    height: 100%;
+    width: 100%;
+    padding: .7rem;
+    box-sizing: border-box; /* Include padding in the height */
+  }
+  
+  /* .slider-image img */
+  .slider-image img {
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* .slider-footer */
+  .slider-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  /* .slider-footer_links */
+  .slider-footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 55px;
+  }
+
+  /*///////////////////////////////////////////////////////////////////////*/
+  /* swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 80%;
+    height: 600px;
+  } */
+
+  /* swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+/* 
+  .swiper-slide_content {
+    height: 100%;
+    width: 100%;
+    padding: .7rem;
+  } */
+
+  .swiper-slide_content hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  /* .slider-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+  }
+
+  .slider-footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    height: 55px;
+  } */
+  .slider-image{
+    height: 80%;
+    
+  }
+
+.project-title {
+    color: #000 !important;
+    font-size: 1.2rem !important;
+}
+
+
+/*************************************************************************/
 .section-portfolio{
  background-color: #54be90;
 }
@@ -801,7 +928,7 @@ textarea {
 }
 
 @media(max-width: 910px){
-
+ 
     .section-skills_content, 
     .section-portfolio_content, 
     .section-find-me_content,
@@ -843,6 +970,7 @@ textarea {
 }
 
 @media(max-width: 740px){
+ 
     header {
         height: 330px;
     }

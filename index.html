@@ -167,7 +167,38 @@
         <section id="portfolio" class="section-portfolio">
             <div class="section-portfolio_content">
                 <h2>My Portfolio</h2>
-                <div class="flex-cards">
+                <swiper-container class="mySwiper" pagination="true"
+                    pagination-clickable="true" navigation="true"
+                    space-between="30"
+                    loop="true">
+                    <swiper-slide>
+                        <div class="swiper-slide_content">
+                            <div class="slider-image">
+                                <img src="./media//images/test.PNG"
+                                    alt="Image">
+                            </div>
+                            <hr>
+                            <div class="slider-footer">
+                                <h2 class="project-title">Project Title</h2>
+                                <div class="slider-footer_links">
+                                    <p><a href>Read More</a></p>
+                                    <p><a href>Visit</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>Slide 2</swiper-slide>
+                    <swiper-slide>Slide 3</swiper-slide>
+                    <swiper-slide>Slide 4</swiper-slide>
+                    <swiper-slide>Slide 5</swiper-slide>
+                    <swiper-slide>Slide 6</swiper-slide>
+                    <swiper-slide>Slide 7</swiper-slide>
+                    <swiper-slide>Slide 8</swiper-slide>
+                    <swiper-slide>Slide 9</swiper-slide>
+                </swiper-container>
+
+                <!-- <div class="flex-cards">
                     <div class="flex-cards_column">
                         <div class="flex-cards_card">
                             <div class="flex-cards_card-image">
@@ -264,7 +295,7 @@
                             <h3 class="flex-cards_card-tech-stack">Tech Stack:</h3>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section id="about" class="section-about-me">
@@ -355,6 +386,8 @@
                 </div>
             </div>
         </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
         <script src="./js/script.js"></script>
     </body>
 </html>
